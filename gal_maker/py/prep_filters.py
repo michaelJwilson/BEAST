@@ -9,6 +9,26 @@ def prep_filters(names=['LSST', 'VIDEO'], normed=False):
   filters  = collections.OrderedDict()                                              ## Generate the required filters; Euclid: Y, J and H.                  
   root     = os.environ['BEAST']
 
+  if 'EUCLID-NIR' in names:
+    ##  https://arxiv.org/pdf/1710.09585.pdf                                                                                                                                                                                                                                                       
+    print('Adding Euclid filters (Y, J, H).')
+
+    for band in ['H', 'J', 'Y']:
+      ppkey  = r"EUCLID-$" + "%s" % band + r"$"
+      fname  = root + "/filters/euclid/%s.pb" % band
+      data   = np.loadtxt(fname)
+
+      ls     = data[:,0]                                                            ## Angstroms.                                                                                                                                                                                           
+      vs     = (1.e10 / ls) * const.c.to('m/s').value
+
+      if normed:
+        filters[band] = {'ppkey': ppkey, 'fname': fname, 'ls': ls, 'vs': vs, 'Ts': data[:,1] / data[:,1].max()}
+
+      else:
+        filters[band] = {'ppkey': ppkey, 'fname': fname, 'ls': ls, 'vs': vs, 'Ts': data[:,1]}
+
+    names.remove('EUCLID-NIR')
+
   if 'LSST' in names:
     print('\n\nAdding LSST filters (u, g, r, i, z and y).')
 
@@ -154,6 +174,26 @@ def prep_filters(names=['LSST', 'VIDEO'], normed=False):
         filters[band.upper()] = {'ppkey': ppkey, 'fname': fname, 'ls': ls, 'vs': vs, 'Ts': data[:,1]}
 
     names.remove('ISUBARU')
+
+  if 'EUCLID-VIS' in names:
+    ##  https://arxiv.org/pdf/1710.09585.pdf                                                                                                                                                                                                                                                       
+    print('Adding Euclid filters (VIS (riz)).')
+
+    for band in ['VIS']:
+      ppkey  = r"EUCLID-$" + "%s" % band + r"$"
+      fname  = root + "/filters/euclid/%s.pb" % band
+      data   = np.loadtxt(fname)
+
+      ls     = data[:,0]  ##  Angstroms.                                                                                                                                                                                                                                                           
+      vs     = (1.e10 / ls) * const.c.to('m/s').value
+
+      if normed:
+        filters[band] = {'ppkey': ppkey, 'fname': fname, 'ls': ls, 'vs': vs, 'Ts': data[:,1] / data[:,1].max()}
+
+      else:
+        filters[band] = {'ppkey': ppkey, 'fname': fname, 'ls': ls, 'vs': vs, 'Ts': data[:,1]}
+
+    names.remove('EUCLID-VIS')
 
   if len(names) != 0:
     ##  Catch any requested filters that are not either LSST or VIDEO.                                                                      
