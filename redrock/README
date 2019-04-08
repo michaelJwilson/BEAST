@@ -1,0 +1,11 @@
+N=1 on cori for 60mins = 80 /100k credits. 
+
+--  Mem error for 2000 spectra.  Use all n default. 
+--  Check do/done/wait script. 
+--  Debug via SBATCH.  Dry run. -N = 0
+--  Pass PATH but not NERSC host. 
+
+--  Within ZERR or 3 * ZERR of true redshift? 
+--  PCA breakdown when Ly-a drops out, no dependence on coefficient. 
+--  DESI TARGET CUTS. STRIP COLOURS.
+--   

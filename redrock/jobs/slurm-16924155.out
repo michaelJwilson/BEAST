@@ -1,0 +1,91 @@
+NEW ENVIRONMENT SET.
+SOLVING FOR 1000 desi lrg
+Running with 32 processes
+Loading targets...
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 595, in rrdesi
+    comm=comm, cache_Rcsr=True, cosmics_nsig=args.cosmics_nsig)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 147, in __init__
+    hdus = fits.open(sfile, memmap=False)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 162, in fitsopen
+    lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 413, in fromfile
+    lazy_load_hdus=lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 1001, in _readfrom
+    fileobj = _File(fileobj, mode=mode, memmap=memmap, cache=cache)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+Proc 0: FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/mjwilson/desi/simspec/lrg-desi-spectra-exp-1000.fits'
+
+Rank 0 [Sun Dec  9 23:44:14 2018] [c8-0c2s1n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01669: task 0: Aborted
+srun: Terminating job step 16924155.0
+slurmstepd: error: *** STEP 16924155.0 ON nid01669 CANCELLED AT 2018-12-09T23:44:24 ***
+srun: error: nid01669: tasks 1-31: Terminated
+srun: Force Terminated job step 16924155.0
+SOLVING FOR 4000 desi lrg
+Running with 32 processes
+Loading targets...
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 595, in rrdesi
+    comm=comm, cache_Rcsr=True, cosmics_nsig=args.cosmics_nsig)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 147, in __init__
+    hdus = fits.open(sfile, memmap=False)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 162, in fitsopen
+    lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 413, in fromfile
+    lazy_load_hdus=lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 1001, in _readfrom
+    fileobj = _File(fileobj, mode=mode, memmap=memmap, cache=cache)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+Proc 0: FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/mjwilson/desi/simspec/lrg-desi-spectra-exp-4000.fits'
+
+Rank 0 [Sun Dec  9 23:44:38 2018] [c8-0c2s1n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01669: task 0: Aborted
+srun: Terminating job step 16924155.1
+slurmstepd: error: *** STEP 16924155.1 ON nid01669 CANCELLED AT 2018-12-09T23:44:40 ***
+srun: error: nid01669: tasks 1-31: Terminated
+srun: Force Terminated job step 16924155.1
+SOLVING FOR 7000 desi lrg
+Running with 32 processes
+Loading targets...
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 595, in rrdesi
+    comm=comm, cache_Rcsr=True, cosmics_nsig=args.cosmics_nsig)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 147, in __init__
+    hdus = fits.open(sfile, memmap=False)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 162, in fitsopen
+    lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 413, in fromfile
+    lazy_load_hdus=lazy_load_hdus, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 1001, in _readfrom
+    fileobj = _File(fileobj, mode=mode, memmap=memmap, cache=cache)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+Proc 0:   File "/global/common/software/desi/cori/desiconda/20180709-1.2.6-spec/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+Proc 0: FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/mjwilson/desi/simspec/lrg-desi-spectra-exp-7000.fits'
+
+Rank 0 [Sun Dec  9 23:44:51 2018] [c8-0c2s1n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01669: task 0: Aborted
+srun: Terminating job step 16924155.2
+slurmstepd: error: *** STEP 16924155.2 ON nid01669 CANCELLED AT 2018-12-09T23:44:53 ***
+srun: error: nid01669: tasks 1-31: Terminated
+srun: Force Terminated job step 16924155.2

@@ -1,0 +1,229 @@
+NEW ENVIRONMENT SET.
+SOLVING FOR 1000 desi elg
+Running with 32 processes
+Loading targets...
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q2_198.fits
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q4_198.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+Read and broadcast of 4 templates: 0.2 seconds
+Rebinning templates: 1.1 seconds
+Computing redshifts
+  Scanning redshifts for template Q2_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 1.0 seconds
+  Scanning redshifts for template Q4_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 1.0 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 17.5 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 10.2 seconds
+  Finding best fits for template GALAXY
+    Finished in: 2.5 seconds
+  Finding best fits for template Q2_198
+    Finished in: 0.5 seconds
+  Finding best fits for template Q4_198
+    Finished in: 0.5 seconds
+  Finding best fits for template QSO
+    Finished in: 0.8 seconds
+Computing redshifts took: 36.9 seconds
+Writing zscan data took: 0.5 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 39.8 seconds
+SOLVING FOR 4000 desi elg
+Running with 32 processes
+Loading targets...
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q2_198.fits
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q4_198.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+Read and broadcast of 4 templates: 0.2 seconds
+Rebinning templates: 1.1 seconds
+Computing redshifts
+  Scanning redshifts for template Q2_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 1.0 seconds
+  Scanning redshifts for template Q4_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 0.9 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 17.6 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 10.3 seconds
+  Finding best fits for template GALAXY
+    Finished in: 2.6 seconds
+  Finding best fits for template Q2_198
+    Finished in: 0.5 seconds
+  Finding best fits for template Q4_198
+    Finished in: 0.5 seconds
+  Finding best fits for template QSO
+    Finished in: 0.8 seconds
+Computing redshifts took: 37.1 seconds
+Writing zscan data took: 0.5 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 40.0 seconds
+SOLVING FOR 7000 desi elg
+Running with 32 processes
+Loading targets...
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q2_198.fits
+DEBUG: Using default redshift range 1.5000-3.9997 for rrtemplate-Q4_198.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+Read and broadcast of 4 templates: 0.2 seconds
+Rebinning templates: 1.1 seconds
+Computing redshifts
+  Scanning redshifts for template Q2_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 0.9 seconds
+  Scanning redshifts for template Q4_198
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 1.0 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 17.6 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 10.2 seconds
+  Finding best fits for template GALAXY
+    Finished in: 2.6 seconds
+  Finding best fits for template Q2_198
+    Finished in: 0.5 seconds
+  Finding best fits for template Q4_198
+    Finished in: 0.5 seconds
+  Finding best fits for template QSO
+    Finished in: 0.8 seconds
+Computing redshifts took: 37.0 seconds
+Writing zscan data took: 0.5 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 39.8 seconds

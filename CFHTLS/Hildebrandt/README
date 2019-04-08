@@ -1,0 +1,21 @@
+Please find the catalogues here:
+
+ftp://ftp.astro.uni-bonn.de/pub/hendrik/for_MW.tar.gz
+
+The tar file (unpacks to 6.6GB) contains the full catalogues as well as the u-dropout catalogues. 
+
+You get from the former to the latter via the selection criteria that are described in the paper (using the u_g_ISO_cor2 and g_r_ISO_cor2 colours) 
+and filtering on MASK_[ugriz]=0, MASK_STARS=0, masksa=0, maskgscw2=0, and CLASS_STAR<0.9.
+
+Columns 206-227 (Z_PHOT - b_scale) are from HyperZ run with the CWW templates.
+Columns 236-255 (Z_PHOT_BC - PROB_CHI2_BC) are from HyperZ run with the Bruzual & Charlot templates.
+Columns 271-279 (Z_B_V3 - M_0_V3) are from BPZ.
+
+For their meaning please see the HyperZ and BPZ manuals.
+
+
+
+##  
+ASU:
+
+http://vizier.u-strasbg.fr/viz-bin/asu-binfits

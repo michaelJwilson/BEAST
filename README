@@ -1,0 +1,54 @@
+##  Allocation on NERSC calculation:
+-N 1 on cori for 1 hr is 80 / 100k credits. 
+
+
+source /project/projectdirs/desi/software/desi_environment.sh  ##  18.11
+
+
+https://github.com/desihub 
+Tag to 0.19.0
+
+##  Redrock install.
+https://github.com/desihub/redrock
+python setup.py install --user
+
+##  DESISIM install.
+git clone https://github.com/desihub/desisim.git
+python setup.py install --user
+
+##  SPECTER install.
+git clone https://github.com/desihub/specter.git
+python setup.py install --user
+
+##  BASIS_TEMPLATES  install. 
+
+##  REDROCK TEMPLATES
+git clone https://github.com/desihub/redrock-templates.git
+git clone https://github.com/desihub/redrock-archetypes.git
+
+##  DESIMODEL  
+git clone https://github.com/desihub/desimodel.git
+No module named DESIUTIL.
+git clone https://github.com/desihub/desiutil.git
+
+##  DESISPEC  
+git clone https://github.com/desihub/desispec.git
+python setup.py install --user
+
+##  DESITARGET  
+git clone https://github.com/desihub/desitarget.git
+python setup.py install --user
+
+##  DESITUTORIALS  
+git clone https://github.com/desihub/tutorials.git
+
+##  DESIUTIL
+git clone https://github.com/desihub/desiutil.git
+python setup.py install --user
+
+##  SPECSIM
+https://github.com/desihub/specsim/blob/master/docs/install.rst
+github clone https://github.com/desihub/specsim.git
+cd specsim
+python setup.py install --user 
+python setup.py develop --user

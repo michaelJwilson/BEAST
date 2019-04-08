@@ -1,0 +1,377 @@
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 beast lbg
+Running with 1 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/runs/one//lbg-beast-spectra-exp-1500.fits']
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-BC03.fits
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 9 templates: 0.6 seconds
+Rebinning templates: 27.9 seconds
+Computing redshifts
+  Scanning redshifts for template BC03
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 58.3 seconds
+  Scanning redshifts for template LBG
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 55.0 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 169.9 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 104.0 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.5 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.3 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.6 seconds
+  Finding best fits for template BC03
+    Finished in: 18.1 seconds
+  Finding best fits for template GALAXY
+    Finished in: 33.4 seconds
+  Finding best fits for template LBG
+    Finished in: 18.2 seconds
+  Finding best fits for template QSO
+    Finished in: 10.1 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 9.1 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 9.1 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 9.4 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 9.9 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 9.7 seconds
+Computing redshifts took: 554.5 seconds
+Writing zscan data took: 0.6 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 584.8 seconds
+SOLVING FOR 3000 beast lbg
+Running with 1 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/runs/one//lbg-beast-spectra-exp-3000.fits']
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-BC03.fits
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 9 templates: 0.4 seconds
+Rebinning templates: 28.1 seconds
+Computing redshifts
+  Scanning redshifts for template BC03
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 60.0 seconds
+  Scanning redshifts for template LBG
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 55.5 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 169.5 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 103.6 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.5 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.5 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.5 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 7.4 seconds
+  Finding best fits for template BC03
+    Finished in: 17.7 seconds
+  Finding best fits for template GALAXY
+    Finished in: 33.0 seconds
+  Finding best fits for template LBG
+    Finished in: 17.8 seconds
+  Finding best fits for template QSO
+    Finished in: 10.4 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 9.6 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 9.6 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 9.6 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 9.0 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 9.1 seconds
+Computing redshifts took: 554.8 seconds
+Writing zscan data took: 0.4 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 584.9 seconds
+SOLVING FOR 4500 beast lbg
+Running with 1 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/runs/one//lbg-beast-spectra-exp-4500.fits']
+Read and distribution of 100 targets: 1.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-BC03.fits
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 9 templates: 0.1 seconds
+Rebinning templates: 27.6 seconds
+Computing redshifts
+  Scanning redshifts for template BC03
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 60.9 seconds
+  Scanning redshifts for template LBG
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 54.9 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 169.7 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %

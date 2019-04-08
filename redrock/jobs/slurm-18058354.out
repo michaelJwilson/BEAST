@@ -1,0 +1,192 @@
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 desi BC03
+SOLVING FOR 3000 desi BC03
+SOLVING FOR 4500 desi BC03
+SOLVING FOR 6000 desi BC03
+SOLVING FOR 7500 desi BC03
+SOLVING FOR 9000 desi BC03
+SOLVING FOR 10500 desi BC03
+SOLVING FOR 12000 desi BC03
+SOLVING FOR 13500 desi BC03
+Running with 24 processes
+Running with 24 processes
+Loading targets...
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-6000.fits']
+Read and distribution of 2000 targets: 12.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-9000.fits']
+Read and distribution of 2000 targets: 12.3 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Rank 0 [Fri Jan 18 02:26:00 2019] [c7-0c1s3n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:00 2019] [c8-0c0s7n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-4500.fits']
+Read and distribution of 2000 targets: 13.0 seconds
+srun: error: nid01420: task 0: Aborted
+srun: Terminating job step 18058354.6
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:00 2019] [c5-0c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01566: task 0: Aborted
+srun: Terminating job step 18058354.7
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-1500.fits']
+Read and distribution of 2000 targets: 13.2 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:00 2019] [c5-0c1s11n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-3000.fits']
+Read and distribution of 2000 targets: 13.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:01 2019] [c5-0c2s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01061: task 0: Aborted
+srun: Terminating job step 18058354.1
+srun: error: nid01069: task 0: Aborted
+srun: Terminating job step 18058354.2
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-12000.fits']
+Read and distribution of 2000 targets: 13.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:01 2019] [c8-0c0s14n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-10500.fits']
+Read and distribution of 2000 targets: 13.2 seconds
+srun: error: nid01125: task 0: Aborted
+srun: Terminating job step 18058354.4
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:01 2019] [c7-0c0s8n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01594: task 0: Aborted
+srun: Terminating job step 18058354.8
+srun: error: nid01379: task 0: Aborted
+srun: Terminating job step 18058354.5
+slurmstepd: error: *** STEP 18058354.6 ON nid01420 CANCELLED AT 2019-01-18T02:26:02 ***
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-7500.fits']
+Read and distribution of 2000 targets: 12.5 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:02 2019] [c5-0c2s8n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+['/global/cscratch1/sd/mjwilson/desi/simspec/BC03-desi-spectra-exp-13500.fits']
+Read and distribution of 2000 targets: 13.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+Proc 0: Traceback (most recent call last):
+srun: error: nid01123: task 0: Aborted
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+srun: Terminating job step 18058354.3
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 448, in load_dist_templates
+    template_data.append(Template(filename=t))
+Proc 0:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 89, in __init__
+    "template type {}".format(self._rrtype))
+Proc 0: ValueError: Unknown redshift range to use for template type BC03
+
+Rank 0 [Fri Jan 18 02:26:03 2019] [c5-0c0s12n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+srun: error: nid01420: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.6
+srun: error: nid01010: task 0: Aborted
+srun: Terminating job step 18058354.0
+slurmstepd: error: *** STEP 18058354.7 ON nid01566 CANCELLED AT 2019-01-18T02:26:11 ***
+srun: error: nid01566: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.7
+slurmstepd: error: *** STEP 18058354.1 ON nid01061 CANCELLED AT 2019-01-18T02:26:18 ***
+srun: error: nid01061: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.1
+slurmstepd: error: *** STEP 18058354.3 ON nid01123 CANCELLED AT 2019-01-18T02:26:22 ***
+srun: error: nid01123: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.3
+slurmstepd: error: *** STEP 18058354.5 ON nid01379 CANCELLED AT 2019-01-18T02:26:24 ***
+srun: error: nid01379: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.5
+slurmstepd: error: *** STEP 18058354.0 ON nid01010 CANCELLED AT 2019-01-18T02:26:28 ***
+srun: error: nid01010: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.0
+slurmstepd: error: *** STEP 18058354.8 ON nid01594 CANCELLED AT 2019-01-18T02:26:31 ***
+srun: error: nid01594: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.8
+slurmstepd: error: *** STEP 18058354.4 ON nid01125 CANCELLED AT 2019-01-18T02:26:35 ***
+srun: error: nid01125: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.4
+slurmstepd: error: *** STEP 18058354.2 ON nid01069 CANCELLED AT 2019-01-18T02:26:44 ***
+srun: error: nid01069: tasks 1-23: Terminated
+srun: Force Terminated job step 18058354.2

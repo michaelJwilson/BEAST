@@ -1,0 +1,9 @@
+export  EAZYPY=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/py/
+export  THREEDHST=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/threedhst/threedhst/
+export  PYTHONPATH=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/threedhst/:$PYTHONPATH
+export  PYTHONPATH=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/threedhst/threedhst:$PYTHONPATH
+export  PYTHONPATH=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/py/:$PYTHONPATH
+export  EAZY=/global/homes/m/mjwilson/Rafelski15/eazy-photoz/py/
+export  PYTHONPATH=$DESIHUB/desispec/py:$PYTHONPATH
+export  PATH=$DESIHUB/desispec/bin:$PATH
+export  BEAST=/global/homes/m/mjwilson/desi/BEAST

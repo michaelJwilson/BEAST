@@ -1,0 +1,1479 @@
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 beast lbg
+SOLVING FOR 3000 beast lbg
+SOLVING FOR 4500 beast lbg
+SOLVING FOR 6000 beast lbg
+SOLVING FOR 7500 beast lbg
+SOLVING FOR 9000 beast lbg
+SOLVING FOR 10500 beast lbg
+SOLVING FOR 12000 beast lbg
+SOLVING FOR 13500 beast lbg
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+Read and distribution of 2000 targets: 13.1 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+Read and distribution of 2000 targets: 12.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+Read and distribution of 2000 targets: 12.6 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+Read and distribution of 2000 targets: 13.0 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+Read and distribution of 2000 targets: 13.1 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+Read and distribution of 2000 targets: 13.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+Read and distribution of 2000 targets: 13.3 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+Rebinning templates: 1.4 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+Read and distribution of 2000 targets: 13.5 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+Rebinning templates: 1.7 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.3 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.4 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.3 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.3 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.3 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+Rebinning templates: 2.2 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+Read and distribution of 2000 targets: 13.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+    Progress:  10 %
+Rebinning templates: 2.2 seconds
+Computing redshifts
+  Scanning redshifts for template LBG
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 60.6 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 60.6 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 60.0 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 60.9 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 59.9 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Finished in: 60.3 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 60.5 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 60.4 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 60.6 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 211.0 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 215.0 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 212.9 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 215.0 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 215.9 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Finished in: 215.7 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 216.6 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 217.1 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 214.8 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress: 100 %
+    Progress:  90 %
+    Finished in: 110.8 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 112.2 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress: 100 %
+    Progress:  60 %
+    Finished in: 112.8 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  70 %
+    Progress:  10 %
+    Finished in: 112.1 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  10 %
+    Progress: 100 %
+    Progress: 100 %
+    Progress:  20 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  10 %
+    Finished in: 113.0 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 112.8 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Finished in: 112.1 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Finished in: 112.2 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  50 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  40 %
+    Progress:  10 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  30 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  70 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress: 100 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Finished in: 111.8 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  80 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  90 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  90 %
+    Progress:  50 %
+    Progress:  20 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress: 100 %
+    Finished in: 9.5 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress:  40 %
+    Progress:  10 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  80 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  90 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 9.5 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  10 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  80 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress:  80 %
+    Progress: 100 %
+    Progress:  90 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress: 100 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  10 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  80 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  50 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress: 100 %
+    Progress:  90 %
+    Progress:  80 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress:  20 %
+    Progress:  10 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  90 %
+    Progress:  70 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  10 %
+    Progress:  40 %
+    Progress:  30 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  20 %
+    Progress:  50 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  30 %
+    Progress:  50 %
+    Progress:  30 %
+    Progress:  30 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  40 %
+    Progress:  40 %
+    Progress:  90 %
+    Progress:  40 %
+    Progress:  70 %
+    Progress:  60 %
+    Progress:  50 %
+    Progress:  50 %
+    Progress:  80 %
+    Progress:  50 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  30 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  40 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  60 %
+    Progress:  10 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress:  50 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  70 %
+    Progress:  20 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  80 %
+    Progress:  60 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Progress:  80 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  30 %
+    Progress:  70 %
+    Progress: 100 %
+    Progress:  40 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  90 %
+    Progress:  90 %
+    Progress:  50 %
+    Progress:  90 %
+    Progress:  80 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  60 %
+    Progress:  90 %
+    Progress:  70 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Finding best fits for template GALAXY
+    Finished in: 38.4 seconds
+  Finding best fits for template LBG
+    Finished in: 39.5 seconds
+  Finding best fits for template LBG
+    Finished in: 39.3 seconds
+  Finding best fits for template LBG
+    Finished in: 39.2 seconds
+  Finding best fits for template LBG
+    Finished in: 38.8 seconds
+  Finding best fits for template LBG
+    Finished in: 39.5 seconds
+  Finding best fits for template LBG
+    Finished in: 39.6 seconds
+  Finding best fits for template LBG
+    Finished in: 39.0 seconds
+  Finding best fits for template LBG
+    Finished in: 39.2 seconds
+  Finding best fits for template LBG
+    Finished in: 21.6 seconds
+  Finding best fits for template QSO
+    Finished in: 21.7 seconds
+  Finding best fits for template QSO
+    Finished in: 22.5 seconds
+  Finding best fits for template QSO
+    Finished in: 21.8 seconds
+  Finding best fits for template QSO
+    Finished in: 21.7 seconds
+  Finding best fits for template QSO
+    Finished in: 22.0 seconds
+  Finding best fits for template QSO
+    Finished in: 22.4 seconds
+  Finding best fits for template QSO
+    Finished in: 21.7 seconds
+  Finding best fits for template QSO
+    Finished in: 11.1 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 22.0 seconds
+  Finding best fits for template QSO
+    Finished in: 11.2 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.1 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.4 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 10.7 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.2 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.3 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.2 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.4 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.0 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.8 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.4 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.5 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.5 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.6 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.7 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 11.8 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 11.6 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 12.1 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.6 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.2 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 12.4 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 11.8 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 11.9 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.6 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 12.1 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.7 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.9 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 10.6 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 12.0 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.9 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.5 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.0 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 10.8 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 11.1 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 10.9 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 10.8 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 10.8 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 11.8 seconds
+    Finished in: 11.3 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 10.8 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 11.6 seconds
+    Finished in: 11.6 seconds
+    Finished in: 11.4 seconds
+    Finished in: 12.0 seconds
+    Finished in: 11.6 seconds
+    Finished in: 11.7 seconds
+    Finished in: 11.6 seconds
+    Finished in: 12.2 seconds
+Computing redshifts took: 652.8 seconds
+Computing redshifts took: 657.3 seconds
+Writing zscan data took: 6.6 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 673.8 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-4500.fits']
+Computing redshifts took: 661.2 seconds
+Computing redshifts took: 659.1 seconds
+Computing redshifts took: 660.1 seconds
+Computing redshifts took: 661.8 seconds
+Computing redshifts took: 662.4 seconds
+Computing redshifts took: 663.3 seconds
+Writing zscan data took: 6.7 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 680.0 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-6000.fits']
+Computing redshifts took: 659.8 seconds
+Writing zscan data took: 6.7 seconds
+Writing zbest data took: 0.2 seconds
+Total run time: 682.8 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-3000.fits']
+Writing zscan data took: 6.6 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 681.8 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-10500.fits']
+Writing zscan data took: 7.2 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 683.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-13500.fits']
+Writing zscan data took: 6.9 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 684.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-12000.fits']
+Writing zscan data took: 6.7 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 685.0 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-7500.fits']
+Writing zscan data took: 6.8 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 686.3 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-9000.fits']
+Writing zscan data took: 6.7 seconds
+Writing zbest data took: 0.1 seconds
+Total run time: 682.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/simspec/lbg-beast-spectra-exp-1500.fits']

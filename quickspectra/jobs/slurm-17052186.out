@@ -1,0 +1,221 @@
+NEW ENVIRONMENT SET.
+SOLVING FOR 1000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 1000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-1000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 2000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 2000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-2000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 3000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 3000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-3000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 4000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 4000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-4000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 5000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 5000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-5000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 6000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 6000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-6000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 7000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 7000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-7000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 8000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 8000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-8000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 9000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 9000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-9000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+SOLVING FOR 10000 desi lbg dark 2
+INFO:quickspectra.py:390:main: Reading an input FITS file
+INFO:quickspectra.py:434:main: input flux shape (after repeat) = (2000, 32000)
+INFO:quickspectra.py:61:sim_spectra: Starting simulation of 2000 spectra
+WARNING:quickspectra.py:146:sim_spectra: Minimum input wavelength 3600.0>3533; padding with zeros
+DEBUG:simexp.py:406:simulate_spectra: ** loading specsim config ** desi
+DEBUG:simexp.py:410:simulate_spectra: creating specsim desi simulator
+INFO:simexp.py:432:simulate_spectra: MJD not in obsconditions, using DATE-OBS 2009-06-18T12:00:00.000
+DEBUG:simexp.py:436:simulate_spectra: obsconditions SEEING = 0.8
+DEBUG:simexp.py:436:simulate_spectra: obsconditions EXPTIME = 10000.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions AIRMASS = 1.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONFRAC = 0.0
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONALT = -60
+DEBUG:simexp.py:436:simulate_spectra: obsconditions MOONSEP = 180
+DEBUG:simexp.py:673:get_source_types: star 2000 targets
+DEBUG:simexp.py:476:simulate_spectra: running simulation with fastsim fiber loss method
+DEBUG:simexp.py:482:simulate_spectra: source types: 2000 star
+Unknown comment for NIGHT
+Unknown comment for EXPID
+Unknown comment for TILEID
+INFO:quickspectra.py:304:sim_spectra: Wrote /global/cscratch1/sd/mjwilson/desi/simspec/lbg-desi-spectra-exp-10000.fits
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]

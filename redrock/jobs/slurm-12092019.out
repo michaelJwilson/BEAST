@@ -1,0 +1,33 @@
+/opt/cray/pe/modules/default/init/bash: line 7: unalias: sqs: not found
+redrock-templates/0.7(79):ERROR:102: Tcl command execution failed: setenv DESI_CCD_CALIBRATION_DATA $env(DESI_ROOT)/spectro/ccd_calibration_data/trunk
+
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 desi BC03
+SOLVING FOR 3000 desi BC03
+SOLVING FOR 4500 desi BC03
+SOLVING FOR 6000 desi BC03
+SOLVING FOR 7500 desi BC03
+SOLVING FOR 9000 desi BC03
+SOLVING FOR 10500 desi BC03
+SOLVING FOR 12000 desi BC03
+SOLVING FOR 13500 desi BC03
+srun: error: nid01379: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.1
+srun: error: nid00863: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.0
+srun: error: nid01615: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.3
+srun: error: nid01380: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.2
+srun: error: nid02229: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.5
+srun: error: nid01886: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.4
+srun: error: nid02345: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.6
+srun: error: nid02999: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.7
+srun: error: nid03302: tasks 0-23: Illegal instruction
+srun: Terminating job step 12092019.8

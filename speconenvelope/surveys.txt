@@ -1,0 +1,10 @@
+##  Survey  Mirror  Resolution  Multiplex  FOV [Diameter, arcmin].
+    4MOST   4.0     4000.       2400       135.
+    DESI    4.0     5000.       5000.      180.
+    PFS     8.2     3500.       2400.      83.
+    MSE     11.25   4000.       4332.      83.
+    BEAST   6.5     5000.       20000.     90.
+    ESO     10.0    4000.       10000.     150.
+    VIMOS   8.0      220.       400.       17.
+    BOA     10.0    4000.	100000.	   150.
+    FOBOS   10.0    4500.       400.       15.

@@ -1,0 +1,672 @@
+NEW ENVIRONMENT SET.
+edison
+SOLVING FOR 1000 desi lbg
+SOLVING FOR 2000 desi lbg
+SOLVING FOR 3000 desi lbg
+SOLVING FOR 4000 desi lbg
+SOLVING FOR 5000 desi lbg
+SOLVING FOR 6000 desi lbg
+SOLVING FOR 7000 desi lbg
+SOLVING FOR 8000 desi lbg
+SOLVING FOR 9000 desi lbg
+SOLVING FOR 10000 desi lbg
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+srun: error: nid02616: tasks 0-15: Exited with exit code 1
+ImportError: No module named redrock.utils
+srun: Terminating job step 11735828.0
+srun: error: nid02617: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.1
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+srun: error: nid03647: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.2
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+srun: error: nid03648: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.3
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+srun: error: nid04380: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.4
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+srun: error: nid04381: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.5
+srun: error: nid05685: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.6
+srun: error: nid05686: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.7
+srun: error: nid05923: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.8
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+    from redrock.utils import nersc_login_node
+Traceback (most recent call last):
+  File "/global/homes/m/mjwilson/desi/BEAST/desihub//redrock/bin/rrdesi_mpi", line 9, in <module>
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+    from redrock.utils import nersc_login_node
+ImportError: No module named redrock.utils
+ImportError: No module named redrock.utils
+srun: error: nid05924: tasks 0-15: Exited with exit code 1
+srun: Terminating job step 11735828.9

@@ -1,0 +1,1380 @@
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 desi elg
+SOLVING FOR 3000 desi elg
+SOLVING FOR 4500 desi elg
+SOLVING FOR 6000 desi elg
+SOLVING FOR 7500 desi elg
+SOLVING FOR 9000 desi elg
+SOLVING FOR 10500 desi elg
+SOLVING FOR 12000 desi elg
+SOLVING FOR 13500 desi elg
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+Running with 24 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Read and distribution of 2000 targets: 13.2 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-12000.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:43 2019] [c5-0c0s4n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Read and distribution of 2000 targets: 12.2 seconds
+srun: error: nid00977: tasks 17-23: Aborted
+srun: Terminating job step 17932470.0
+slurmstepd: error: *** STEP 17932470.0 ON nid00977 CANCELLED AT 2019-01-14T15:05:45 ***
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-4500.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:46 2019] [c7-5c1s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Read and distribution of 2000 targets: 13.7 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+srun: error: nid00977: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.0
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:47 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-7500.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:48 2019] [c9-0c0s9n0] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+srun: error: nid12964: tasks 17-23: Aborted
+srun: Terminating job step 17932470.4
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Read and distribution of 2000 targets: 13.1 seconds
+slurmstepd: error: *** STEP 17932470.4 ON nid12964 CANCELLED AT 2019-01-14T15:05:48 ***
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Read and distribution of 2000 targets: 13.0 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:49 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:49 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:49 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:49 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:49 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:49 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+srun: error: nid01764: tasks 17-23: Aborted
+srun: Terminating job step 17932470.1
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+slurmstepd: error: *** STEP 17932470.1 ON nid01764 CANCELLED AT 2019-01-14T15:05:49 ***
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:49 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:49 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Read and distribution of 2000 targets: 13.8 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:50 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+Rank 19 [Mon Jan 14 15:05:50 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:50 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:50 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-6000.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:50 2019] [c7-5c1s9n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-10500.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:50 2019] [c9-0c0s10n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+srun: error: nid12964: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.4
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Read and distribution of 2000 targets: 12.4 seconds
+srun: error: nid01764: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.1
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Read and distribution of 2000 targets: 13.5 seconds
+srun: error: nid01769: tasks 17-23: Aborted
+srun: Terminating job step 17932470.3
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 1.9 seconds
+srun: error: nid12965: tasks 17-23: Aborted
+srun: Terminating job step 17932470.5
+slurmstepd: error: *** STEP 17932470.5 ON nid12965 CANCELLED AT 2019-01-14T15:05:52 ***
+slurmstepd: error: *** STEP 17932470.3 ON nid01769 CANCELLED AT 2019-01-14T15:05:52 ***
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.8 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 1.2 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Rank 19 [Mon Jan 14 15:05:52 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-13500.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:52 2019] [c9-0c0s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:52 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-3000.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:53 2019] [c7-5c2s8n1] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-1500.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:53 2019] [c7-5c1s9n2] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Read and distribution of 2000 targets: 13.1 seconds
+srun: error: nid01769: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.3
+srun: error: nid12965: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.5
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-5.4929 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 8 templates: 0.4 seconds
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 20: Traceback (most recent call last):
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 20:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 20: ValueError: edges must be within input x range
+
+Rank 20 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 20
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 17: Traceback (most recent call last):
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 17:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 17: ValueError: edges must be within input x range
+
+Rank 17 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 17
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 18: Traceback (most recent call last):
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 18:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 18: ValueError: edges must be within input x range
+
+Rank 18 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 18
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 21: Traceback (most recent call last):
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 21:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 21: ValueError: edges must be within input x range
+
+Rank 21 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 21
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 22: Traceback (most recent call last):
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 22:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 22: ValueError: edges must be within input x range
+
+Rank 22 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 22
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 23: Traceback (most recent call last):
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 23:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 23: ValueError: edges must be within input x range
+
+Rank 23 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 23
+['/global/cscratch1/sd/mjwilson/desi/simspec/elg-desi-spectra-exp-9000.fits']
+Proc 19: Traceback (most recent call last):
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/external/desi.py", line 619, in rrdesi
+    comm=comm, mp_procs=mpprocs)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 461, in load_dist_templates
+    dtemplates.append(DistTemplate(t, dwave, mp_procs=mp_procs, comm=comm))
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates.py", line 289, in __init__
+    binned = rebin_template(self._template, z, self._dwave)
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in rebin_template
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <dictcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 92, in <listcomp>
+    result = { hs:np.array([ trapz_rebin((1.+z)*template.wave, template.flux[b], wave) for b in range(nbasis) ]).transpose() for hs, wave in dwave.items() }
+Proc 19:   File "/global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/rebin.py", line 65, in trapz_rebin
+    raise ValueError('edges must be within input x range')
+Proc 19: ValueError: edges must be within input x range
+
+Rank 19 [Mon Jan 14 15:05:54 2019] [c7-5c1s9n3] application called MPI_Abort(MPI_COMM_WORLD, 0) - process 19
+srun: error: nid01766: tasks 17-23: Aborted
+srun: Terminating job step 17932470.2
+slurmstepd: error: *** STEP 17932470.2 ON nid01766 CANCELLED AT 2019-01-14T15:05:55 ***
+srun: error: nid12966: tasks 17-23: Aborted
+srun: Terminating job step 17932470.6
+slurmstepd: error: *** STEP 17932470.6 ON nid12966 CANCELLED AT 2019-01-14T15:05:55 ***
+srun: error: nid13025: tasks 17-23: Aborted
+srun: Terminating job step 17932470.8
+slurmstepd: error: *** STEP 17932470.8 ON nid13025 CANCELLED AT 2019-01-14T15:05:55 ***
+srun: error: nid01766: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.2
+srun: error: nid13025: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.8
+srun: error: nid12966: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.6
+srun: error: nid12967: tasks 17-23: Aborted
+srun: Terminating job step 17932470.7
+slurmstepd: error: *** STEP 17932470.7 ON nid12967 CANCELLED AT 2019-01-14T15:05:57 ***
+srun: error: nid12967: tasks 0-16: Terminated
+srun: Force Terminated job step 17932470.7

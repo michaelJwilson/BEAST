@@ -1,0 +1,189 @@
+NEW ENVIRONMENT SET.
+cori
+
+SOLVING FOR 1500 desi lbg
+/global/homes/m/mjwilson/desi/BEAST/
+/global/cscratch1/sd/mjwilson/desi/runs/three/
+/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits
+/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500-rr.h5
+/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500-zbest.fits
+True
+Running with 24 processes
+Loading targets...
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+Read and distribution of 2000 targets: 12.9 seconds
+DEBUG: Read templates from /global/homes/m/mjwilson/desi/BEAST/desihub/redrock/py/redrock/templates
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-BC03.fits
+DEBUG: Using default redshift range 1.5000-4.8944 for rrtemplate-LBG.fits
+DEBUG: Using default redshift range -0.0050-1.6997 for rrtemplate-galaxy.fits
+DEBUG: Using default redshift range 0.0500-5.9934 for rrtemplate-qso.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-A.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-B.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-F.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-K.fits
+DEBUG: Using default redshift range -0.0020-0.0020 for rrtemplate-star-M.fits
+Read and broadcast of 9 templates: 1.0 seconds
+Rebinning templates: 2.1 seconds
+Computing redshifts
+  Scanning redshifts for template BC03
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 59.1 seconds
+  Scanning redshifts for template LBG
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 59.2 seconds
+  Scanning redshifts for template GALAXY
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 215.1 seconds
+  Scanning redshifts for template QSO
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 110.4 seconds
+  Scanning redshifts for template STAR:::A
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::B
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::F
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.4 seconds
+  Scanning redshifts for template STAR:::K
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.3 seconds
+  Scanning redshifts for template STAR:::M
+    Progress:   0 %
+    Progress:  10 %
+    Progress:  20 %
+    Progress:  30 %
+    Progress:  40 %
+    Progress:  50 %
+    Progress:  60 %
+    Progress:  70 %
+    Progress:  80 %
+    Progress:  90 %
+    Progress: 100 %
+    Finished in: 9.3 seconds
+  Finding best fits for template BC03
+    Finished in: 21.6 seconds
+  Finding best fits for template GALAXY
+    Finished in: 39.2 seconds
+  Finding best fits for template LBG
+    Finished in: 21.4 seconds
+  Finding best fits for template QSO
+    Finished in: 11.3 seconds
+  Finding best fits for template STAR:::A
+    Finished in: 11.0 seconds
+  Finding best fits for template STAR:::B
+    Finished in: 10.8 seconds
+  Finding best fits for template STAR:::F
+    Finished in: 11.1 seconds
+  Finding best fits for template STAR:::K
+    Finished in: 11.1 seconds
+  Finding best fits for template STAR:::M
+    Finished in: 11.7 seconds
+Computing redshifts took: 745.6 seconds
+Writing zscan data took: 15.2 seconds
+Writing zbest data took: 5.3 seconds
+Total run time: 782.0 seconds
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
+['/global/cscratch1/sd/mjwilson/desi/runs/three//lbg-desi-spectra-exp-1500.fits']
